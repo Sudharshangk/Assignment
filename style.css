@@ -1,0 +1,111 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .dir {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dir2 {
+        flex-direction: column;
+    }
+
+    .sebox {
+        padding: 20px;
+    }
+
+    .txtbox {
+        text-align: center;
+    }
+
+    .menu-items {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.bg {
+    background-color: rgb(38, 43, 38);
+    padding: 10px;
+}
+
+.dir {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.menubar {
+    height: 3vh;
+    width: 3vw;
+    padding: 10px;
+}
+
+.bar {
+    background-color: rgb(240, 125, 93);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.menu-items {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items li {
+    margin-right: 15px;
+}
+
+.fstbox {
+    background-color: rgb(208, 241, 140);
+    padding: 30px;
+}
+
+.img1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.but {
+    background-color: rgb(240, 125, 93);
+    border: 0px;
+    padding: 10px;
+    color: white;
+}
+
+.sebox {
+    background-color: rgb(208, 241, 140);
+    margin: 2px;
+    padding: 80px;
+}
+
+.imgs2,
+.imgs3,
+.img3 {
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+}
+
+.txtbox {
+    background-color: rgb(240, 125, 93);
+    padding: 20px;
+}
+
+.but2 {
+    background-color: rgb(240, 125, 93);
+    border: 0px;
+}
